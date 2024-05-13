@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    font-family: "Concert One", sans-serif;
+}
+
+body {
+
+}
+
+header {
+    background-image: url("../images/festa1.jpg");
+    background-size: 100vw;
+}
+
+h1 {
+    text-align: center;
+}
+
+.destaque {
+    &__texto {
+        background-image: url(../images/paper-texture.jpg);
+        background-size: cover;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        margin: 0;
+        padding: 0;
+        background-repeat: repeat;
+    }
+
+    &__bemvindx {
+        font-size: 60pt;
+        
+    }
+
+    &__festa {
+        font-size: 80pt;
+    }
+
+    &__mais {
+        font-size: 48pt;
+    }
+
+
+    &__brasil {
+        font-size: 102pt;
+
+    }
+}
+
+.cabecalho {
+    color: white;
+    &__imagem {
+        display: none;
+    }
+}
+
+.carrossel {
+    &__divisoria {
+        height: 250px;
+        width: 200px;
+        overflow: hidden;
+    }
+    &__imagem {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
